@@ -2,4 +2,4 @@
 
 * PHP 5.6-apache
 * Msql 5.5.44
-* aminer
+* phpmyadmin
