@@ -1,0 +1,68 @@
+/* CSS Document */
+#navigation {
+    width: 180px;
+    font-size: 12px;
+	padding:0 10px 0 10px;
+}
+	#navigation ul {
+	    margin: 0px;
+	    padding: 0px;
+		border:solid 0px #CCC;
+	}
+	ul.top-level {  }
+		
+	#navigation li { list-style: none; 
+		moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		margin:3px;
+		background-image:url(../images/bg_vmenu.gif);
+	}
+    ul.top-level li {
+            border-left: #fff solid 1px;
+			border-right: #aaa solid 1px;
+			border-bottom: #999 solid 1px;
+            border-top: solid 1px #FFF;
+
+        }
+			#navigation a {
+				color: #000;
+				cursor: pointer;
+				display:block;
+				height:25px;
+				line-height: 25px;
+				text-indent: 10px;					
+				text-decoration:none;
+				width:100%;
+			}
+			#navigation a:hover{ text-decoration:none;color:#000; }
+	        #navigation li:hover {
+	            background: #bbb;
+	            position: relative;
+				background-image:url(../images/bg_vmenu_ov.gif);
+				border-right: #4FA7FF solid 1px;
+				border-bottom: #0482FF solid 1px;
+				
+	        }
+        ul.sub-level { display: none; }
+        li:hover .sub-level {
+            background: #000;
+            border: #ccc solid;
+            border-width: 0px;
+            display: block;
+            position: absolute;
+            left: 173px;
+            top: 0px;
+			
+        }
+        ul.sub-level li {
+			float:left;
+			width:150px; 
+        }
+		#navigation .sub-level { background: #eee;
+
+		}
+		#navigation .sub-level .sub-level {  }
+						
+	/*IE RESET HELPER*/
+	li:hover .sub-level .sub-level { display:none; }
+	.sub-level li:hover .sub-level { display:block; }	

@@ -1,0 +1,166 @@
+
+#x-desktop {
+	width: 50%;
+	height: 100%;
+	border: 0 none;
+	position: relative;
+    overflow:hidden;
+    zoom:1;
+	float:left;
+	
+}
+
+
+
+/* Desktop Shortcuts */
+#x-shortcuts dt {
+    float:left;
+    margin:40px 0 0 95px;
+    width:84px;
+    font:normal 10px tahoma,arial,verdana,sans-serif;
+    text-align:center;
+    zoom:1;
+    display:block;
+}
+#x-shortcuts dt a {
+    width:84px;
+    display:block;
+    color:white;
+    text-decoration:none;
+	font-size:12px;
+}
+#x-shortcuts dt div {
+    width:100%;
+    color:black;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    cursor:pointer;
+}
+.ext-ie #x-shortcuts dt img {
+    background:transparent !important;
+}
+#x-shortcuts dt a:hover {
+    text-decoration:none;
+}
+/* shortcuts */
+#var-win-shortcut img {
+    width:55px;
+    height:55px;
+    background-image: url(../images/variable55x55.png);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/variable55x55.png', sizingMethod='scale');
+}
+#member-win-shortcut img {
+    width:48px;
+    height:48px;
+    background-image: url(../images/im48x48.png);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/im48x48.png', sizingMethod='scale');
+}
+
+#acc-win-shortcut img {
+    width:48px;
+    height:48px;
+    background-image: url(../images/im48x48.png);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/im48x48.png', sizingMethod='scale');
+}
+
+#finance-win-shortcut img {
+    width:55px;
+    height:55px;
+    background-image: url(../images/finance55x55.png);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/finance55x55.png', sizingMethod='scale');
+}
+#report-win-shortcut img {
+    width:55px;
+    height:55px;
+    background-image: url(../images/report55x55.png);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/report55x55.png', sizingMethod='scale');
+}
+#notice-win-shortcut img {
+    width:55px;
+    height:55px;
+    background-image: url(../images/notice55x55.png);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/notice55x55.png', sizingMethod='scale');
+}
+#income-win-shortcut img {
+    width:55px;
+    height:55px;
+	background-image:url(../images/ico_payall.png);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/ico_payall.png', sizingMethod='scale');
+}
+
+#unpay-win-shortcut img {
+    width:55px;
+    height:55px;
+    background-image: url(../images/ico_unpay.png);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/unpay.png', sizingMethod='scale');
+}
+
+#paid-win-shortcut img {
+    width:55px;
+    height:55px;
+    background-image: url(../images/ico_paid.png);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/paid.png', sizingMethod='scale');
+}
+#config-win-shortcut img {
+    width:55px;
+    height:55px;
+	background-image:url(../images/ico_setting.png);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/ico_setting.png', sizingMethod='scale');
+}
+#logout-win-shortcut img {
+    width:55px;
+    height:55px;
+	background-image:url(../images/ico_change_pass.png);
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/ico_change_pass.png', sizingMethod='scale');
+}
+
+
+
+.sidebarreport{
+	float:right;
+	width:350px;
+	height:370px;
+	margin:30px 50px;
+	/*
+	moz-border-radius: 0px 50px 0px 50px;
+	-webkit-border-radius: 0px 50px 0px 50px;
+	border-top:dashed 1px #666;
+	border-bottom:dashed 1px #666;
+	border-left: dashed 1px #666;
+	border-right: dashed 1px #666;
+	*/
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:smaller;
+	background-image:url(../images/sticky_note.png);
+	background-position: top center;
+	background-repeat:no-repeat;
+}
+.todo a{
+	text-decoration:none;
+}
+.todo a:hover{
+	border-bottom:dotted 1px #F00;	
+}
+.todo li {
+	padding:5px;
+}
+.red{
+	color:#F00;
+}
+#x-shortcuts dt div.count{
+	background-color:#F03;
+	moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	font-size:9px;
+	color:#FFF;
+	width:10px;
+	height:10px;
+	padding:3px;
+	float:right;
+	
+}
+	
+#tick2{
+font-weight:bold;
+font-size:11px;
+}

@@ -1,0 +1,893 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<ew-language date="2012/11/28" version="8.0.0" id="en" name="English" desc="English" author="e.World Technology Ltd.">
+	<global>
+		<phrase id="actiondeleted" value="Deleted"/>
+		<phrase id="actioninserted" value="Inserted"/>
+		<phrase id="actioninsertedgridadd" value="Inserted (Grid-Add)"/>
+		<phrase id="actionupdated" value="Updated"/>
+		<phrase id="actionupdatedgridedit" value="Updated (Grid-Edit)"/>
+		<phrase id="actionupdatedmultiupdate" value="Updated (Multi-Update)"/>
+		<phrase id="activateaccount" value="Your account is activated"/>
+		<phrase id="activatefailed" value="Activation failed"/>
+		<phrase id="add" value="Add to"/>
+		<phrase id="addblankrow" value="Add Blank Row"/>
+		<phrase id="addbtn" value="Add"/>
+		<phrase id="addlink" value="Add"/>
+		<phrase id="addsuccess" value="Add succeeded"/>
+		<phrase id="advancedsearch" value="Advanced Search"/>
+		<phrase id="allrecords" value="All"/>
+		<phrase id="allword" value="All words"/>
+		<phrase id="alwaysask" value="Always ask for my user name and password"/>
+		<phrase id="anyword" value="Any word"/>
+		<phrase id="audittrailautologin" value="autologin"/>
+		<phrase id="audittrailfailedattempt" value="failed attempt: %n"/>
+		<phrase id="audittrailuserloggedin" value="user already logged in"/>
+		<phrase id="audittrailpasswordexpired" value="password expired"/>
+		<phrase id="audittraillogin" value="login"/>
+		<phrase id="audittraillogout" value="logout"/>
+		<phrase id="autologin" value="Auto login until I logout explicitly"/>
+		<phrase id="average" value="Average"/>
+		<phrase id="backtolist" value="Back to List"/>
+		<phrase id="backtologin" value="Back to login page"/>
+		<phrase id="backtomasterpage" value="Back to master page"/>
+		<phrase id="batchdeletebegin" value="*** Batch delete begin ***"/>
+		<phrase id="batchdeleterollback" value="*** Batch delete rollback ***"/>
+		<phrase id="batchdeletesuccess" value="*** Batch delete successful ***"/>
+		<phrase id="batchinsertbegin" value="*** Batch insert begin ***"/>
+		<phrase id="batchinsertrollback" value="*** Batch insert rollback ***"/>
+		<phrase id="batchinsertsuccess" value="*** Batch insert successful ***"/>
+		<phrase id="batchupdatebegin" value="*** Batch update begin ***"/>
+		<phrase id="batchupdaterollback" value="*** Batch update rollback ***"/>
+		<phrase id="batchupdatesuccess" value="*** Batch update successful ***"/>
+		<phrase id="cancelbtn" value="Cancel"/>
+		<phrase id="cancellink" value="Cancel"/>
+		<phrase id="changepwd" value="Change Password"/>
+		<phrase id="changepwdpage" value="Change Password Page"/>
+		<phrase id="changepwdbtn" value="Change Password"/>
+		<phrase id="confirm" value="Confirm"/>
+		<phrase id="confirmbtn" value="Confirm"/>
+		<phrase id="confirmpassword" value="Confirm Password"/>
+		<phrase id="conflictcancellink" value="Cancel"/>
+		<phrase id="copylink" value="Copy"/>
+		<phrase id="count" value="Count"/>
+		<phrase id="customview" value="CUSTOM VIEW"/>
+		<phrase id="delete" value="Delete From"/>
+		<phrase id="deletebtn" value="Confirm Delete"/>
+		<phrase id="deletecancelled" value="Delete cancelled"/>
+		<phrase id="deleteconfirmmsg" value="Do you want to delete this record?" client="1"/>
+		<phrase id="deletelink" value="Delete"/>
+		<phrase id="deletemulticonfirmmsg" value="Do you want to delete the selected records?" client="1"/>
+		<phrase id="deleteselectedlink" value="Delete Selected Records"/>
+		<phrase id="deletesuccess" value="Delete succeeded"/>
+		<phrase id="detaillink" value=""/>
+		<phrase id="detailcount" value="(%c)"/>
+		<phrase id="dupindex" value="Duplicate value '%v' for unique index '%f'"/>
+		<phrase id="dupkey" value="Duplicate primary key: '%f'"/>
+		<phrase id="edit" value="Edit"/>
+		<phrase id="editbtn" value="Edit"/>
+		<phrase id="editlink" value="Edit"/>
+		<phrase id="enternewpassword" value="Please enter new password" client="1"/>
+		<phrase id="enteroldpassword" value="Please enter old password" client="1"/>
+		<phrase id="enterpassword" value="Please enter password" client="1"/>
+		<phrase id="enterpwd" value="Please enter password" client="1"/>
+		<phrase id="enterrequiredfield" value="Please enter required field" client="1"/>
+		<phrase id="entersearchcriteria" value="Please enter search criteria"/>
+		<phrase id="enterusername" value="Please enter username" client="1"/>
+		<phrase id="entervalidatecode" value="Please enter the validation code shown" client="1"/>
+		<phrase id="entersenderemail" value="Please enter sender email" client="1"/>
+		<phrase id="enterpropersenderemail" value="Exceed maximum sender email count or email address incorrect" client="1"/>
+		<phrase id="enterrecipientemail" value="Please enter recipient email" client="1"/>
+		<phrase id="enterproperrecipientemail" value="Exceed maximum recipient email count or email address incorrect" client="1"/>
+		<phrase id="enterproperccemail" value="Exceed maximum cc email count or email address incorrect" client="1"/>
+		<phrase id="enterproperbccemail" value="Exceed maximum bcc email count or email address incorrect" client="1"/>
+		<phrase id="entersubject" value="Please enter subject" client="1"/>
+		<phrase id="emailformsender" value="From"/>
+		<phrase id="emailformrecipient" value="To"/>
+		<phrase id="emailformcc" value="Cc"/>
+		<phrase id="emailformbcc" value="Bcc"/>
+		<phrase id="emailformsubject" value="Subject"/>
+		<phrase id="emailformmessage" value="Message"/>
+		<phrase id="emailformcontenttype" value="Send as"/>
+		<phrase id="emailformcontenttypeurl" value="URL"/>
+		<phrase id="emailformcontenttypehtml" value="HTML"/>
+		<phrase id="enteruid" value="Please enter user ID" client="1"/>
+		<phrase id="entervalidemail" value="Please enter valid Email Address!" client="1"/>
+		<phrase id="exactphrase" value="Exact phrase"/>
+		<phrase id="exceedmaxretry" value="Exceed maximum login retry count. Account is locked. Please try again in %t minutes"/>
+		<phrase id="exceedmaxemailexport" value="Exceed maximum export email count. Please try again later"/>
+		<phrase id="exporttocsv" value="Export to CSV"/>
+		<phrase id="exporttoemail" value="Email" client="1"/>
+		<phrase id="exporttoexcel" value="Export to Excel"/>
+		<phrase id="exporttohtml" value="Export to HTML"/>
+		<phrase id="exporttopdf" value="Export to PDF"/>
+		<phrase id="exporttoword" value="Export to Word"/>
+		<phrase id="exporttoxml" value="Export to XML"/>
+		<phrase id="failedtosendmail" value="Failed to send mail. "/>
+		<phrase id="fieldname" value="Field Name"/>
+		<phrase id="fieldrequiredindicator" value="&lt;span class=&quot;ewRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;"/>
+		<phrase id="overwritebtn" value="Overwrite"/>
+		<phrase id="overwritelink" value="Overwrite"/>
+		<phrase id="forgotpwd" value="Forgot Password"/>
+		<phrase id="goback" value="Go Back"/>
+		<phrase id="gridaddlink" value="Grid Add"/>
+		<phrase id="gridcancellink" value="Cancel"/>
+		<phrase id="grideditlink" value="Grid Edit"/>
+		<phrase id="gridinsertlink" value="Insert"/>
+		<phrase id="gridsavelink" value="Save"/>
+		<phrase id="hidehighlight" value="Hide highlight" client="1"/>
+		<phrase id="incorrectcreditcard" value="Incorrect credit card number"/>
+		<phrase id="incorrectdateymd" value="Incorrect date, format = yyyy%smm%sdd"/>
+		<phrase id="incorrectdatemdy" value="Incorrect date, format = mm%sdd%syyyy"/>
+		<phrase id="incorrectdatedmy" value="Incorrect date, format = dd%smm%syyyy"/>
+		<phrase id="incorrectshortdateymd" value="Incorrect date, format = yy%smm%sdd"/>
+		<phrase id="incorrectshortdatemdy" value="Incorrect date, format = mm%sdd%syy"/>
+		<phrase id="incorrectshortdatedmy" value="Incorrect date, format = dd%smm%syy"/>
+		<phrase id="incorrectemail" value="Incorrect email" client="1"/>
+		<phrase id="incorrectfield" value="Incorrect field" client="1"/>
+		<phrase id="incorrectfloat" value="Incorrect floating point number" client="1"/>
+		<phrase id="incorrectguid" value="Incorrect GUID" client="1"/>
+		<phrase id="incorrectinteger" value="Incorrect integer" client="1"/>
+		<phrase id="incorrectphone" value="Incorrect phone number" client="1"/>
+		<phrase id="incorrectregexp" value="Regular expression not matched" client="1"/>
+		<phrase id="incorrectrange" value="Number must be between %1 and %2" client="1"/>
+		<phrase id="incorrectssn" value="Incorrect social security number" client="1"/>
+		<phrase id="incorrecttime" value="Incorrect time (hh:mm:ss)" client="1"/>
+		<phrase id="incorrectzip" value="Incorrect ZIP code" client="1"/>
+		<phrase id="inlineaddlink" value="Inline Add"/>
+		<phrase id="inlinecopylink" value="Inline Copy"/>
+		<phrase id="inlineeditlink" value="Inline Edit"/>
+		<phrase id="insertcancelled" value="Insert cancelled"/>
+		<phrase id="insertfailed" value="Insert failed"/>
+		<phrase id="insertlink" value="Insert"/>
+		<phrase id="insertsuccess" value="Insert succeeded"/>
+		<phrase id="invalidemail" value="Invalid Email"/>
+		<phrase id="invalidfield" value="Invalid Field"/>
+		<phrase id="invalidkeyvalue" value="Invalid key value"/>
+		<phrase id="invalidrecord" value="Invalid Record! Key is null" client="1"/>
+		<phrase id="invalidparameter" value="Invalid Parameter"/>
+		<phrase id="invalidpassword" value="Invalid Password"/>
+		<phrase id="invalidnewpassword" value="Invalid New Password"/>
+		<phrase id="invaliduidpwd" value="Incorrect user ID or password"/>
+		<phrase id="keep" value="Keep"/>
+		<phrase id="language" value="Language"/>
+		<phrase id="loading" value="Loading..." client="1"/>
+		<phrase id="login" value="Login"/>
+		<phrase id="logincancelled" value="Login cancelled"/>
+		<phrase id="loginpage" value="Login Page"/>
+		<phrase id="logout" value="Logout"/>
+		<phrase id="masterrecord" value="Master Record: "/>
+		<phrase id="maxfilesize" value="Max. file size (%s bytes) exceeded."/>
+		<phrase id="mismatchpassword" value="Mismatch Password" client="1"/>
+		<phrase id="missinglookuptablename" value="Missing lookup table name"/>
+		<phrase id="missingdisplayfieldname" value="Missing display field name"/>
+		<phrase id="missingdisplayfieldvalue" value="Missing display field value"/>
+		<phrase id="missinguserlevelid" value="Missing User Level ID"/>
+		<phrase id="missinguserlevelname" value="Missing User Level name"/>
+		<phrase id="new" value="New"/>
+		<phrase id="newpassword" value="New Password"/>
+		<phrase id="newvalue" value="New Value"/>
+		<phrase id="next" value="Next"/>
+		<phrase id="noaddrecord" value="No records to be added" client="1"/>
+		<phrase id="nofieldselected" value="No field selected for update" client="1"/>
+		<phrase id="nopermission" value="You do not have permission to access the page."/>
+		<phrase id="noaddpermission" value="You do not have permission to add the record."/>
+		<phrase id="nodeletepermission" value="You do not have permission to delete the record."/>
+		<phrase id="noeditpermission" value="You do not have permission to edit the record."/>
+		<phrase id="norecord" value="No records found"/>
+		<phrase id="norecordforkey" value="No record found for key = "/>
+		<phrase id="norecordselected" value="No records selected" client="1"/>
+		<phrase id="notablegenerated" value="No tables generated"/>
+		<phrase id="of" value="of"/>
+		<phrase id="old" value="Old"/>
+		<phrase id="oldpassword" value="Old Password"/>
+		<phrase id="optionalreadyexist" value="Option already exists"/>
+		<phrase id="page" value="Page"/>
+		<phrase id="pagerfirst" value="First"/>
+		<phrase id="pagerlast" value="Last"/>
+		<phrase id="pagernext" value="Next"/>
+		<phrase id="pagerprevious" value="Previous"/>
+		<phrase id="password" value="Password"/>
+		<phrase id="passwordrequest" value="Password Request"/>
+		<phrase id="passwordchanged" value="Password Changed"/>
+		<phrase id="passwordexpired" value="Password Expired. Please change password."/>
+		<phrase id="permission" value="Permission"/>
+		<phrase id="permissionaddcopy" value="Add/Copy"/>
+		<phrase id="permissiondelete" value="Delete"/>
+		<phrase id="permissionedit" value="Edit"/>
+		<phrase id="permissionlistsearchview" value="List/Search/View"/>
+		<phrase id="permissionlist" value="List"/>
+		<phrase id="permissionsearch" value="Search"/>
+		<phrase id="permissionview" value="View"/>
+		<phrase id="phpuploaderr1" value="The uploaded file exceeds the upload_max_filesize directive in php.ini."/>
+		<phrase id="phpuploaderr2" value="The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form."/>
+		<phrase id="phpuploaderr3" value="The uploaded file was only partially uploaded."/>
+		<phrase id="phpuploaderr4" value="No file was uploaded."/>
+		<phrase id="phpuploaderr6" value="Missing a temporary folder."/>
+		<phrase id="phpuploaderr7" value="Failed to write file to disk."/>
+		<phrase id="phpuploaderr8" value="File upload stopped by extension."/>
+		<phrase id="pickdate" value="Pick a date"/>
+		<phrase id="pleaseselect" value="Please Select"/>
+		<phrase id="primarykeyunspecified" value="Primary key unspecified"/>
+		<phrase id="printerfriendly" value="Printer Friendly"/>
+		<phrase id="prev" value="Prev"/>
+		<phrase id="pwdemailsent" value="Password sent to your email"/>
+		<phrase id="quicksearch" value="Quick Search"/>
+		<phrase id="quicksearchbtn" value="Search (*)"/>
+		<phrase id="record" value="Records"/>
+		<phrase id="recordchangedbyotheruser" value="Data has been changed by other user. Click [Reload] to retrieve the changed data (your data in the form will be overwritten) or click [Overwrite] to overwrite the changed data."/>
+		<phrase id="recorddeleted" value="record(s) deleted"/>
+		<phrase id="recordinserted" value="record(s) inserted"/>
+		<phrase id="recordupdated" value="record(s) updated"/>
+		<phrase id="recordsperpage" value="Page Size"/>
+		<phrase id="register" value="Register"/>
+		<phrase id="registerbtn" value="Register"/>
+		<phrase id="registersuccess" value="Registration succeeded"/>
+		<phrase id="registersuccessactivate" value="Registration succeeded. An email has been sent to your email address, please click the link in the email to activate your account."/>
+		<phrase id="registerpage" value="Registration Page"/>
+		<phrase id="reloadbtn" value="Reload"/>
+		<phrase id="reloadlink" value="Reload"/>
+		<phrase id="rememberme" value="Remember me"/>
+		<phrase id="remove" value="Remove"/>
+		<phrase id="replace" value="Replace"/>
+		<phrase id="report" value="Report"/>
+		<phrase id="requestpwdpage" value="Request Password Page"/>
+		<phrase id="reset" value="Reset"/>
+		<phrase id="resetsearch" value="Reset search criteria"/>
+		<phrase id="rptavg" value="Average"/>
+		<phrase id="rptdtlrec" value="Detail Records"/>
+		<phrase id="rptgrandtotal" value="Grand Total"/>
+		<phrase id="rptmax" value="Maximum"/>
+		<phrase id="rptmin" value="Minimum"/>
+		<phrase id="rptsum" value="Sum"/>
+		<phrase id="rptsumhead" value="Summary for"/>
+		<phrase id="saveusername" value="Save my user name"/>
+		<phrase id="search" value="Search"/>
+		<phrase id="sendemailbtn" value="Send"/>
+		<phrase id="sendemailsuccess" value="Email sent successfully" client="1"/>
+		<phrase id="sendpwd" value="Send Password"/>
+		<phrase id="showall" value="Show all"/>
+		<phrase id="showhighlight" value="Show highlight" client="1"/>
+		<phrase id="srchlegend" value="&amp;nbsp;(*)"/>
+		<phrase id="table" value="TABLE"/>
+		<phrase id="tbltypetable" value="Table: "/>
+		<phrase id="tbltypeview" value="View: "/>
+		<phrase id="tbltypecustomview" value="Custom View: "/>
+		<phrase id="tbltypereport" value="Report: "/>
+		<phrase id="to" value="to"/>
+		<phrase id="total" value="Total"/>
+		<phrase id="unauthorizeduserid" value="The current user (%c) is not authorized to assign the user ID (%u)."/>
+		<phrase id="unauthorizedparentuserid" value="The current user (%c) is not authorized to assign the parent user ID (%p)."/>
+		<phrase id="unauthorizedmasteruserid" value="The current user (%c) is not authorized to insert the record. Master filter: %f"/>
+		<phrase id="unmatchedvalue" value="&lt;img src=&quot;%falert-small.gif&quot; alt=&quot;Value does not exist&quot; title=&quot;Value does not exist&quot; width=&quot;16&quot; height=&quot;16&quot; border=&quot;0&quot;&gt;"/>
+		<phrase id="update" value="Update"/>
+		<phrase id="updatebtn" value="Update"/>
+		<phrase id="updatecancelled" value="Update cancelled"/>
+		<phrase id="updatefailed" value="Update failed"/>
+		<phrase id="updatelink" value="Update"/>
+		<phrase id="updateselectedlink" value="Update Selected Records"/>
+		<phrase id="updatesuccess" value="Update succeeded"/>
+		<phrase id="updatevalue" value="Update"/>
+		<phrase id="useremail" value="User Email"/>
+		<phrase id="userexists" value="User already exists"/>
+		<phrase id="userlevel" value="User Level: "/>
+		<phrase id="userleveladministratorname" value="User level name for user level -1 must be 'Administrator'" client="1"/>
+		<phrase id="userlevelpermission" value="User Level Permissions"/>
+		<phrase id="userlevelidinteger" value="User Level ID must be integer" client="1"/>
+		<phrase id="userleveldefaultname" value="User level name for user level 0 must be 'Default'" client="1"/>
+		<phrase id="userlevelidincorrect" value="User defined User Level ID must be larger than 0" client="1"/>
+		<phrase id="userlevelnameincorrect" value="User defined User Level name cannot be 'Administrator' or 'Default'" client="1"/>
+		<phrase id="userloggedin" value="User '%u' already logged in!"/>
+		<phrase id="username" value="User Name"/>
+		<phrase id="userprofilecorrupted" value="User profile is corrupted. Please logout and login again"/>
+		<phrase id="view" value="View"/>
+		<phrase id="viewlink" value="View"/>
+		<phrase id="viewpageaddlink" value="Add"/>
+		<phrase id="viewpagecopylink" value="Copy"/>
+		<phrase id="viewpagedeletelink" value="Delete"/>
+		<phrase id="viewpagedetaillink" value=""/>
+		<phrase id="viewpageeditlink" value="Edit"/>
+		<phrase id="wrongfiletype" value="File type is not allowed." client="1"/>
+		<phrase id="tableorview" value="Tables/Views"/>
+		<phrase id="=" value="="/>
+		<phrase id="&lt;&gt;" value="&lt;&gt;"/>
+		<phrase id="&lt;" value="&lt;"/>
+		<phrase id="&lt;=" value="&lt;="/>
+		<phrase id="&gt;" value="&gt;"/>
+		<phrase id="&gt;=" value="&gt;="/>
+		<phrase id="like" value="contains"/>
+		<phrase id="not like" value="not contains"/>
+		<phrase id="starts with" value="starts with"/>
+		<phrase id="between" value="between"/>
+		<phrase id="and" value="and"/>
+		<phrase id="or" value="or"/>
+	</global>
+	<project><phrase id="bodytitle" value="ระบบบริหารงานชมรมฌาปนกิจสงเคราะห์สมาชิกเครือข่ายกองทุนหมู่บ้านอำเภอลี้"/>
+<phrase id="footertext" value="Power by Soft Side Developer"/>
+<menu id="10067"><phrase id="menutext" value="unpaylist"/>
+</menu>
+<menu id="284"><phrase id="menutext" value="memberupdatelog"/>
+</menu>
+<menu id="283"><phrase id="menutext" value="หน้าหลัก"/>
+</menu>
+<menu id="209"><phrase id="menutext" value="subvcalculate"/>
+</menu>
+<menu id="163"><phrase id="menutext" value="sliptnumber"/>
+</menu>
+<menu id="3"><phrase id="menutext" value="ข้อมูลสมาชิก"/>
+</menu>
+<menu id="52"><phrase id="menutext" value="รายชื่อสมาชิกปกติ"/>
+</menu>
+<menu id="53"><phrase id="menutext" value="รายชื่อสมาชิกที่เสียชีวิต"/>
+</menu>
+<menu id="54"><phrase id="menutext" value="รายชื่อสมาชิกที่ลาออก"/>
+</menu>
+<menu id="55"><phrase id="menutext" value="รายชื่อสมาชิกที่พ้นสภาพ"/>
+</menu>
+<menu id="10262"><phrase id="menutext" value="นำเข้าข้อมูลสมาชิก"/>
+</menu>
+<menu id="10135"><phrase id="menutext" value="เงินสงเคราะห์ที่ต้องจ่าย"/>
+</menu>
+<menu id="106"><phrase id="menutext" value="เงินสงเคราะห์ศพ"/>
+</menu>
+<menu id="10137"><phrase id="menutext" value="เงินสงเคราะห์ล่วงหน้าจ่ายคืน"/>
+</menu>
+<menu id="360"><phrase id="menutext" value="รายการที่ค้างชำระ"/>
+</menu>
+<menu id="206"><phrase id="menutext" value="เงินสงเคราะห์ศพ"/>
+</menu>
+<menu id="207"><phrase id="menutext" value="เงินสงเคราะห์ล่วงหน้า"/>
+</menu>
+<menu id="361"><phrase id="menutext" value="ค่าบำรุงประจำปี"/>
+</menu>
+<menu id="362"><phrase id="menutext" value="ค่าสมัครสมาชิก"/>
+</menu>
+<menu id="422"><phrase id="menutext" value="ค่าอื่นๆ"/>
+</menu>
+<menu id="10066"><phrase id="menutext" value="ชำระทุกราย"/>
+</menu>
+<menu id="446"><phrase id="menutext" value="รับชำระเงิน"/>
+</menu>
+<menu id="79"><phrase id="menutext" value="รับชำระรายบุคคล"/>
+</menu>
+<menu id="80"><phrase id="menutext" value="รับชำระเป็นหมู่บ้าน"/>
+</menu>
+<menu id="4"><phrase id="menutext" value="รายการที่ชำระแล้ว"/>
+</menu>
+<menu id="158"><phrase id="menutext" value="ค่าสงเคราะห์ศพ"/>
+</menu>
+<menu id="159"><phrase id="menutext" value="ค่าสงเคราะห์ล่วงหน้า"/>
+</menu>
+<menu id="160"><phrase id="menutext" value="ค่าบำรุงประจำปี"/>
+</menu>
+<menu id="161"><phrase id="menutext" value="ค่าสมาชิก"/>
+</menu>
+<menu id="162"><phrase id="menutext" value="ชำระค่าอื่นๆ"/>
+</menu>
+<menu id="9"><phrase id="menutext" value="รับชำระเป็นหมู่บ้าน"/>
+</menu>
+<menu id="135"><phrase id="menutext" value="รายงาน"/>
+</menu>
+<menu id="10060"><phrase id="menutext" value="รายชื่อหมู่บ้าน"/>
+</menu>
+<menu id="10047"><phrase id="menutext" value="รายชื่อสมาชิกทั้งหมด"/>
+</menu>
+<menu id="10192"><phrase id="menutext" value="สรุปข้อมูลจำนวนสมาชิก"/>
+</menu>
+<menu id="10041"><phrase id="menutext" value="จำนวนสมาชิกแยกตามสถานะ"/>
+</menu>
+<menu id="10227"><phrase id="menutext" value="สรุปข้อมูลรายรับรายจ่าย"/>
+</menu>
+<menu id="10048"><phrase id="menutext" value="รายการชำระเงินแล้วทั้งหมด"/>
+</menu>
+<menu id="10049"><phrase id="menutext" value="ข้อมูลการชำระเงิน"/>
+</menu>
+<menu id="10052"><phrase id="menutext" value="รายชื่อผู้ค้างชำระทั้งหมด"/>
+</menu>
+<menu id="10033"><phrase id="menutext" value="ยอดเงินค้างชำระแยกตามหมู่บ้าน"/>
+</menu>
+<menu id="10056"><phrase id="menutext" value="ยอดเงินสงเคราะห์ล่วงหน้าคงเหลือ"/>
+</menu>
+<menu id="10058"><phrase id="menutext" value="ค่าใช้จ่ายของสมาคม"/>
+</menu>
+<menu id="105"><phrase id="menutext" value="แก้ไขค่าคงที่"/>
+</menu>
+<menu id="486"><phrase id="menutext" value="บันทึกค่าใช้จ่าย"/>
+</menu>
+<menu id="447"><phrase id="menutext" value="หมวดหมู่"/>
+</menu>
+<menu id="448"><phrase id="menutext" value="รายการที่จ่าย"/>
+</menu>
+<menu id="81"><phrase id="menutext" value="เมนูผู้ใช้งาน"/>
+</menu>
+<menu id="82"><phrase id="menutext" value="แก้ไขรหัสผ่าน"/>
+</menu>
+<menu id="83"><phrase id="menutext" value="ออกจากระบบ"/>
+</menu>
+<menu id="6"><phrase id="menutext" value="ค่าคงที่"/>
+</menu>
+<menu id="18"><phrase id="menutext" value="ค่าสงเคราะห์ล่วงหน้า"/>
+</menu>
+<menu id="21"><phrase id="menutext" value="ข้อมูลสถานะสมาชิกทั้งหมด"/>
+</menu>
+<menu id="20"><phrase id="menutext" value="ข้อมูลสมาชิกที่เสียชีวิต"/>
+</menu>
+<menu id="7"><phrase id="menutext" value="ข้อมูลผู้รับเงินสงห์เคราะห์"/>
+</menu>
+<menu id="16"><phrase id="menutext" value="userlevelpermissions"/>
+</menu>
+<menu id="17"><phrase id="menutext" value="userlevels"/>
+</menu>
+<menu id="5"><phrase id="menutext" value="permission"/>
+</menu>
+<menu id="1"><phrase id="menutext" value="administrator"/>
+</menu>
+<menu id="8"><phrase id="menutext" value="tambon"/>
+</menu>
+<menu id="10"><phrase id="menutext" value="member status"/>
+</menu>
+<menu id="11"><phrase id="menutext" value="paymenttype"/>
+</menu>
+<menu id="13"><phrase id="menutext" value="gender"/>
+</menu>
+<menu id="14"><phrase id="menutext" value="prefix"/>
+</menu>
+<menu id="10044"><phrase id="menutext" value="Report 1"/>
+</menu>
+<menu id="10046"><phrase id="menutext" value="Custom View 3"/>
+</menu>
+<menu id="10029"><phrase id="menutext" value="Chart 1"/>
+</menu>
+<menu id="10039"><phrase id="menutext" value="Custom View 1"/>
+</menu>
+<menu id="10051"><phrase id="menutext" value="viewunpaymember"/>
+</menu>
+<menu id="10055"><phrase id="menutext" value="viewadvsubv"/>
+</menu>
+<menu id="10057"><phrase id="menutext" value="viewexpense"/>
+</menu>
+<table id="administrator"><phrase id="tblcaption" value="administrator"/>
+<field id="member_id"><phrase id="fldcaption" value="member id"/>
+<phrase id="fldtagcaption1" value="Administrator"/>
+<phrase id="fldtagcaption2" value="Default"/>
+<phrase id="fldtagcaption3" value="officer"/>
+</field>
+<field id="username"><phrase id="fldcaption" value="username"/>
+</field>
+<field id="password"><phrase id="fldcaption" value="password"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="name"/>
+</field>
+<field id="lastlogin"><phrase id="fldcaption" value="lastlogin"/>
+</field>
+</table>
+<table id="members"><phrase id="tblcaption" value="ข้อมูลสมาชิก"/>
+<field id="member_id"><phrase id="fldcaption" value="IDสมาชิก"/>
+</field>
+<field id="member_code"><phrase id="fldcaption" value="รหัสสมาชิก"/>
+</field>
+<field id="id_code"><phrase id="fldcaption" value="เลขประจำตัวประชาชน"/>
+</field>
+<field id="prefix"><phrase id="fldcaption" value="คำนำหน้า"/>
+</field>
+<field id="gender"><phrase id="fldcaption" value="เพศ"/>
+<phrase id="fldtagcaption1" value="ชาย"/>
+<phrase id="fldtagcaption2" value="หญิง"/>
+</field>
+<field id="fname"><phrase id="fldcaption" value="ชื่อ"/>
+</field>
+<field id="lname"><phrase id="fldcaption" value="นามสกุล"/>
+</field>
+<field id="birthdate"><phrase id="fldcaption" value="ว.ด.ป.ที่เกิด"/>
+</field>
+<field id="age"><phrase id="fldcaption" value="อายุ"/>
+</field>
+<field id="zemail"><phrase id="fldcaption" value="email"/>
+</field>
+<field id="address"><phrase id="fldcaption" value="บ้านเลขที่"/>
+</field>
+<field id="t_code"><phrase id="fldcaption" value="ตำบล"/>
+</field>
+<field id="village_id"><phrase id="fldcaption" value="หมู่บ้าน"/>
+</field>
+<field id="phone"><phrase id="fldcaption" value="เบอร์โทรศัพท์"/>
+</field>
+<field id="suffix"><phrase id="fldcaption" value="รูปถ่าย"/>
+</field>
+<field id="bnfc1_name"><phrase id="fldcaption" value="ผู้รับเงินสงเคราะห์คนที่ 1"/>
+</field>
+<field id="bnfc1_rel"><phrase id="fldcaption" value="ความสัมพันธ์"/>
+</field>
+<field id="bnfc2_name"><phrase id="fldcaption" value="ผู้รับเงินสงเคราะห์คนที่ 2"/>
+</field>
+<field id="bnfc2_rel"><phrase id="fldcaption" value="ความสัมพันธ์"/>
+</field>
+<field id="bnfc3_name"><phrase id="fldcaption" value="ผู้รับเงินสงเคราะห์คนที่ 3"/>
+</field>
+<field id="bnfc3_rel"><phrase id="fldcaption" value="ความสัมพันธ์"/>
+</field>
+<field id="bnfc4_name"><phrase id="fldcaption" value="ชื่อผู้รับเงินสงเคราะห์คนที่ 4"/>
+</field>
+<field id="bnfc4_rel"><phrase id="fldcaption" value="ความสัมพันธ์"/>
+</field>
+<field id="regis_date"><phrase id="fldcaption" value="ว.ด.ป.ที่สมัคร"/>
+</field>
+<field id="effective_date"><phrase id="fldcaption" value="ว.ด.ป.ที่มีผล"/>
+</field>
+<field id="attachment"><phrase id="fldcaption" value="เอกสารประกอบ"/>
+</field>
+<field id="member_status"><phrase id="fldcaption" value="สถานะสมาชิก"/>
+</field>
+<field id="resign_date"><phrase id="fldcaption" value="ว.ด.ป.ที่ลาออก"/>
+</field>
+<field id="dead_date"><phrase id="fldcaption" value="ว.ด.ป.ที่เสียชีวิต"/>
+</field>
+<field id="terminate_date"><phrase id="fldcaption" value="ว.ด.ป.ที่พ้นสภาพ"/>
+</field>
+<field id="advance_budget"><phrase id="fldcaption" value="ยอดเงินสงเคราะห์ล่วงหน้า"/>
+</field>
+<field id="dead_id"><phrase id="fldcaption" value="ศพที่"/>
+</field>
+<field id="note"><phrase id="fldcaption" value="สาเหตุหรือรายละเอียด"/>
+</field>
+<field id="update_detail"><phrase id="fldcaption" value="รายละเอียดการแก้ไข"/>
+</field>
+<field id="member_type"><phrase id="fldcaption" value="member type"/>
+</field>
+</table>
+<table id="paymentsummary"><phrase id="tblcaption" value="รายการชำระเงิน"/>
+<field id="pay_sum_id"><phrase id="fldcaption" value="หมายเลขอ้างอิง"/>
+</field>
+<field id="t_code"><phrase id="fldcaption" value="ตำบล"/>
+</field>
+<field id="village_id"><phrase id="fldcaption" value="หมู่บ้าน"/>
+</field>
+<field id="member_code"><phrase id="fldcaption" value="สมาชิก"/>
+</field>
+<field id="pay_sum_date"><phrase id="fldcaption" value="วันที่รับชำระ"/>
+</field>
+<field id="pay_sum_type"><phrase id="fldcaption" value="รายการรับชำระ"/>
+</field>
+<field id="pay_death_begin"><phrase id="fldcaption" value="ศพที่"/>
+</field>
+<field id="pay_sum_adv_count"><phrase id="fldcaption" value="จำนวนศพ"/>
+</field>
+<field id="pay_sum_adv_num"><phrase id="fldcaption" value="งวดที่"/>
+</field>
+<field id="pay_death_end"><phrase id="fldcaption" value="ถึงศพที่"/>
+</field>
+<field id="pay_annual_year"><phrase id="fldcaption" value="ประจำปี"/>
+</field>
+<field id="pay_sum_detail"><phrase id="fldcaption" value="รายละเอียด"/>
+</field>
+<field id="pay_sum_total"><phrase id="fldcaption" value="จำนวนเงิน"/>
+</field>
+<field id="pay_sum_note"><phrase id="fldcaption" value="หมายเหตุ"/>
+</field>
+<field id="flag"><phrase id="fldcaption" value="flag"/>
+</field>
+</table>
+<table id="permission"><phrase id="tblcaption" value="permission"/>
+<field id="permission_id"><phrase id="fldcaption" value="permission id"/>
+</field>
+<field id="member_id"><phrase id="fldcaption" value="member id"/>
+</field>
+<field id="admin"><phrase id="fldcaption" value="admin"/>
+</field>
+<field id="zupload"><phrase id="fldcaption" value="upload"/>
+</field>
+<field id="download"><phrase id="fldcaption" value="download"/>
+</field>
+<field id="readonly"><phrase id="fldcaption" value="readonly"/>
+</field>
+</table>
+<table id="setting"><phrase id="tblcaption" value="ค่าคงที่"/>
+<field id="setting_id"><phrase id="fldcaption" value="setting id"/>
+</field>
+<field id="regis_rate"><phrase id="fldcaption" value="ค่าสมัครสมาชิก"/>
+</field>
+<field id="annual_rate"><phrase id="fldcaption" value="ค่าบำรุง / ค่าธรรมเนียม ประจำปี"/>
+</field>
+<field id="subvention_rate"><phrase id="fldcaption" value="เงินสงเคราะห์ศพต่อราย"/>
+</field>
+<field id="assc_percent"><phrase id="fldcaption" value="% สำหรับสมาคม"/>
+</field>
+<field id="max_subvention"><phrase id="fldcaption" value="กรอบวงเงินสงเคราะห์สูงสุด"/>
+</field>
+<field id="rc_rate"><phrase id="fldcaption" value="ค่าชดเชยย้อนหลัง"/>
+</field>
+<field id="min_advance_subv"><phrase id="fldcaption" value="เงินสงเคราะห์ล่วงหน้าต่ำสุด"/>
+</field>
+<field id="max_advance_subv"><phrase id="fldcaption" value="จำนวนศพในการเรียกเก็บเงินสงเคราะห์ล่วงหน้าต่อครั้ง"/>
+</field>
+<field id="quoted_advance_subv"><phrase id="fldcaption" value="ยอดเงินสงเคราะห์ล่วงหน้าคงเหลือยกมา"/>
+</field>
+<field id="max_age"><phrase id="fldcaption" value="อายุสูงสุดของผู้สมัคร"/>
+</field>
+<field id="chairman_name"><phrase id="fldcaption" value="ชื่อ-นามสกุลประธานชมรม"/>
+</field>
+<field id="chairman_signature"><phrase id="fldcaption" value="ลายเซ็นต์ประธานชมรม"/>
+</field>
+<field id="receiver_name"><phrase id="fldcaption" value="ชื่อ-นามสกุลผู้รับเงิน"/>
+</field>
+<field id="receiver_signature"><phrase id="fldcaption" value="ลายเซ็นต์ผู้รับเงิน"/>
+</field>
+<field id="logo"><phrase id="fldcaption" value="โลโก้ชมรม"/>
+</field>
+<field id="notice_duedate"><phrase id="fldcaption" value="กำหนดจ่ายเงินเมื่อได้รับหนังสือเตือนไม่เกิน(วัน)"/>
+</field>
+<field id="invoice_duedate"><phrase id="fldcaption" value="กำหนดจ่ายเงินเมื่อได้รับใบแจ้งหนี้ไม่เกิน(วัน)"/>
+</field>
+<field id="contact_info"><phrase id="fldcaption" value="ข้อมูลสำหรับการติดต่อชมรม"/>
+</field>
+<field id="annual_fee_duedate"><phrase id="fldcaption" value="กำหนดชำระค่าบำรุงประจำปี"/>
+</field>
+</table>
+<table id="subventionpayment"><phrase id="tblcaption" value="subventionpayment"/>
+<field id="payment_id"><phrase id="fldcaption" value="payment id"/>
+</field>
+<field id="dead_id"><phrase id="fldcaption" value="ศพที่"/>
+</field>
+<field id="payment_date"><phrase id="fldcaption" value="ว.ด.ป.ที่จ่ายเงิน"/>
+</field>
+<field id="subvent_total"><phrase id="fldcaption" value="จำนวนเงินค่าสงเคาะห์ศพ"/>
+</field>
+<field id="payee"><phrase id="fldcaption" value="ผู้รับเงิน"/>
+</field>
+<field id="pay_des"><phrase id="fldcaption" value="หมายเหตุ"/>
+</field>
+<field id="donate_total"><phrase id="fldcaption" value="จำนวนเงินบริจาค"/>
+</field>
+</table>
+<table id="tambon"><phrase id="tblcaption" value="tambon"/>
+<field id="t_id"><phrase id="fldcaption" value="t id"/>
+</field>
+<field id="t_title"><phrase id="fldcaption" value="t title"/>
+</field>
+<field id="t_order"><phrase id="fldcaption" value="t order"/>
+</field>
+<field id="t_code"><phrase id="fldcaption" value="t code"/>
+</field>
+</table>
+<table id="village"><phrase id="tblcaption" value="village"/>
+<field id="village_id"><phrase id="fldcaption" value="village id"/>
+</field>
+<field id="t_code"><phrase id="fldcaption" value="ตำบล"/>
+</field>
+<field id="v_code"><phrase id="fldcaption" value="หมู่"/>
+</field>
+<field id="v_title"><phrase id="fldcaption" value="ชื่อหมู่บ้าน"/>
+</field>
+<field id="flag"><phrase id="fldcaption" value="flag"/>
+</field>
+</table>
+<table id="memberstatus"><phrase id="tblcaption" value="member status"/>
+<field id="s_id"><phrase id="fldcaption" value="s id"/>
+</field>
+<field id="s_title"><phrase id="fldcaption" value="สถานะสมาชิก"/>
+</field>
+<field id="s_des"><phrase id="fldcaption" value="รายละเอียด"/>
+</field>
+</table>
+<table id="paymenttype"><phrase id="tblcaption" value="paymenttype"/>
+<field id="pt_id"><phrase id="fldcaption" value="pt id"/>
+</field>
+<field id="pt_title"><phrase id="fldcaption" value="ชื่อประเภท"/>
+</field>
+<field id="pt_des"><phrase id="fldcaption" value="หมายเหตุ"/>
+</field>
+</table>
+<table id="gender"><phrase id="tblcaption" value="gender"/>
+<field id="gender_id"><phrase id="fldcaption" value="gender id"/>
+</field>
+<field id="g_title"><phrase id="fldcaption" value="g title"/>
+</field>
+</table>
+<table id="prefix"><phrase id="tblcaption" value="prefix"/>
+<field id="prefix_id"><phrase id="fldcaption" value="prefix id"/>
+</field>
+<field id="p_title"><phrase id="fldcaption" value="p title"/>
+</field>
+</table>
+<table id="userlevelpermissions"><phrase id="tblcaption" value="userlevelpermissions"/>
+<field id="userlevelid"><phrase id="fldcaption" value="userlevelid"/>
+</field>
+<field id="ztablename"><phrase id="fldcaption" value="tablename"/>
+</field>
+<field id="permission"><phrase id="fldcaption" value="permission"/>
+</field>
+</table>
+<table id="userlevels"><phrase id="tblcaption" value="userlevels"/>
+<field id="userlevelid"><phrase id="fldcaption" value="userlevelid"/>
+</field>
+<field id="userlevelname"><phrase id="fldcaption" value="userlevelname"/>
+</field>
+</table>
+<table id="advancebudget"><phrase id="tblcaption" value="advance budget"/>
+<field id="adv_id"><phrase id="fldcaption" value="adv id"/>
+</field>
+<field id="member_id"><phrase id="fldcaption" value="สมาชิก"/>
+</field>
+<field id="death_count"><phrase id="fldcaption" value="จำนวนศพ"/>
+</field>
+<field id="adv_total"><phrase id="fldcaption" value="จำนวนเงินรวม"/>
+</field>
+<field id="adb_detail"><phrase id="fldcaption" value="รายละเอียด"/>
+</field>
+</table>
+<table id="deathmember"><phrase id="tblcaption" value="deathmember"/>
+<field id="death_id"><phrase id="fldcaption" value="ศพที่"/>
+</field>
+<field id="member_id"><phrase id="fldcaption" value="เลขลำดับสมาชิก"/>
+</field>
+<field id="dead_date"><phrase id="fldcaption" value="ว.ด.ป.ที่เสียชีวิต"/>
+</field>
+<field id="dead_detail"><phrase id="fldcaption" value="สาเหตุการเสียชีวิต"/>
+</field>
+</table>
+<table id="memberstatuslist"><phrase id="tblcaption" value="memberstatuslist"/>
+<field id="mbs_id"><phrase id="fldcaption" value="mbs id"/>
+</field>
+<field id="member_id"><phrase id="fldcaption" value="Id สมาชิก"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="สถานะ"/>
+</field>
+<field id="mbs_date"><phrase id="fldcaption" value="ว.ด.ป."/>
+</field>
+<field id="mbs_detail"><phrase id="fldcaption" value="สาเหตุ/รายละเอียด"/>
+</field>
+</table>
+<table id="subvcharge"><phrase id="tblcaption" value="คำนวณเงินสงเคราะห์"/>
+<field id="subvc_id"><phrase id="fldcaption" value="subvc id"/>
+</field>
+<field id="member_code"><phrase id="fldcaption" value="ศพที่"/>
+</field>
+<field id="all_member"><phrase id="fldcaption" value="สมาชิกทั้งหมด"/>
+</field>
+<field id="alive_count"><phrase id="fldcaption" value="มีชีวิต"/>
+</field>
+<field id="dead_count"><phrase id="fldcaption" value="เสียชีวิต"/>
+</field>
+<field id="resign_count"><phrase id="fldcaption" value="ลาออก"/>
+</field>
+<field id="terminate_count"><phrase id="fldcaption" value="พ้นสภาพ"/>
+</field>
+<field id="subv_rate"><phrase id="fldcaption" value="ค่าสงเคราะห์ต่อราย"/>
+</field>
+<field id="can_pay_count"><phrase id="fldcaption" value="ชำระได้"/>
+</field>
+<field id="cant_pay_count"><phrase id="fldcaption" value="ชำระไม่ได้"/>
+</field>
+<field id="cant_pay_detail"><phrase id="fldcaption" value="สาเหตุที่ชำระไม่ได้"/>
+</field>
+<field id="subvc_total"><phrase id="fldcaption" value="ยอดเงินทั้งหมด"/>
+</field>
+<field id="assc_percent"><phrase id="fldcaption" value="เปอร์เซ็นต์สำหรับสมาคม"/>
+</field>
+<field id="assc_total"><phrase id="fldcaption" value="ยอดเงินสำหรับสมาคม"/>
+</field>
+<field id="bnfc_total"><phrase id="fldcaption" value="ยอดเงินสำหรับผู้รับผลประโยชน์"/>
+</field>
+<field id="canculate_date"><phrase id="fldcaption" value="วันที่คำนวณ"/>
+</field>
+<field id="subvc_status"><phrase id="fldcaption" value="สถานะการจ่าย"/>
+<phrase id="fldtagcaption1" value="รอจ่าย"/>
+<phrase id="fldtagcaption2" value="จ่ายแล้ว"/>
+</field>
+<field id="subvc_date"><phrase id="fldcaption" value="วันที่จ่าย"/>
+</field>
+<field id="subvc_slipt_num"><phrase id="fldcaption" value="หมายเลขใบสำคัญ"/>
+</field>
+</table>
+<table id="sliptnumber"><phrase id="tblcaption" value="sliptnumber"/>
+<field id="number"><phrase id="fldcaption" value="number"/>
+</field>
+<field id="slipt_id"><phrase id="fldcaption" value="slipt id"/>
+</field>
+</table>
+<table id="subvcalculate"><phrase id="tblcaption" value="รายการค้างชำระ"/>
+<field id="svc_id"><phrase id="fldcaption" value="svc id"/>
+</field>
+<field id="t_code"><phrase id="fldcaption" value="ตำบล"/>
+</field>
+<field id="village_id"><phrase id="fldcaption" value="หมู่บ้าน"/>
+</field>
+<field id="cal_type"><phrase id="fldcaption" value="รายการที่เรียกเก็บ"/>
+</field>
+<field id="member_code"><phrase id="fldcaption" value="ศพที่"/>
+</field>
+<field id="adv_num"><phrase id="fldcaption" value="งวดที่"/>
+</field>
+<field id="cal_detail"><phrase id="fldcaption" value="รายละเอียด"/>
+</field>
+<field id="count_member"><phrase id="fldcaption" value="จำนวนสมาชิกที่ค้างจ่าย"/>
+</field>
+<field id="all_member"><phrase id="fldcaption" value="จำนวนสมาชิกทั้งหมด"/>
+</field>
+<field id="unit_rate"><phrase id="fldcaption" value="ยอดชำระต่อราย"/>
+</field>
+<field id="total"><phrase id="fldcaption" value="ยอดรวมทั้งหมด"/>
+</field>
+<field id="cal_date"><phrase id="fldcaption" value="ว.ด.ป. ที่คำนวณ"/>
+</field>
+<field id="cal_status"><phrase id="fldcaption" value="สถานะ"/>
+</field>
+<field id="invoice_senddate"><phrase id="fldcaption" value="ว.ด.ป.ที่ส่งใบแจ้งหนี้"/>
+</field>
+<field id="invoice_duedate"><phrase id="fldcaption" value="ว.ด.ป.ที่ครบกำหนด"/>
+</field>
+<field id="notice_senddate"><phrase id="fldcaption" value="ว.ด.ป.ที่ส่งหนังสือเตือน"/>
+</field>
+<field id="notice_duedate"><phrase id="fldcaption" value="ว.ด.ป.ที่ครบกำหนด"/>
+</field>
+</table>
+<table id="memberupdatelog"><phrase id="tblcaption" value="บันทึกการแก้ไข"/>
+<field id="mu_id"><phrase id="fldcaption" value="mu id"/>
+</field>
+<field id="member_code"><phrase id="fldcaption" value="รหัสสมาชิก"/>
+</field>
+<field id="update_detail"><phrase id="fldcaption" value="รายละเอียดการแก้ไข"/>
+</field>
+<field id="update_date"><phrase id="fldcaption" value="ว.ด.ป.ที่แก้ไข"/>
+</field>
+<field id="author"><phrase id="fldcaption" value="ผู้แก้ไข"/>
+</field>
+</table>
+<table id="expensescategory"><phrase id="tblcaption" value="expensescategory"/>
+<field id="exp_cat_id"><phrase id="fldcaption" value="exp cat id"/>
+</field>
+<field id="exp_cat_title"><phrase id="fldcaption" value="หมวดหมู่"/>
+</field>
+</table>
+<table id="expenseslist"><phrase id="tblcaption" value="expenseslist"/>
+<field id="exp_id"><phrase id="fldcaption" value="exp id"/>
+</field>
+<field id="exp_cat"><phrase id="fldcaption" value="หมวดหมู่"/>
+</field>
+<field id="exp_detail"><phrase id="fldcaption" value="รายการที่จ่าย"/>
+</field>
+<field id="exp_total"><phrase id="fldcaption" value="ยอดรวม"/>
+</field>
+<field id="exp_date"><phrase id="fldcaption" value="ว.ด.ป.ที่จ่าย"/>
+</field>
+<field id="exp_dispencer"><phrase id="fldcaption" value="ผู้จ่าย"/>
+</field>
+<field id="exp_slipt_num"><phrase id="fldcaption" value="หมายเลขใบเสร็จ"/>
+</field>
+</table>
+<table id="unpaylist"><phrase id="tblcaption" value="unpaylist"/>
+<field id="unpay_id"><phrase id="fldcaption" value="unpay id"/>
+</field>
+<field id="svc_id"><phrase id="fldcaption" value="svc id"/>
+</field>
+<field id="un_member_id"><phrase id="fldcaption" value="un member id"/>
+</field>
+<field id="un_pay_type"><phrase id="fldcaption" value="un pay type"/>
+</field>
+</table>
+<table id="refundable"><phrase id="tblcaption" value="refundable"/>
+<field id="refund_id"><phrase id="fldcaption" value="refund id"/>
+</field>
+<field id="member_code"><phrase id="fldcaption" value="สมาชิก"/>
+</field>
+<field id="refund_total"><phrase id="fldcaption" value="ยอดเงินสงเคราะห์คงเหลือ"/>
+</field>
+<field id="assc_percent"><phrase id="fldcaption" value="%สำหรับสมาคม"/>
+</field>
+<field id="assc_total"><phrase id="fldcaption" value="ยอดเงินสำหรับสมาคม"/>
+</field>
+<field id="sub_total"><phrase id="fldcaption" value="ยอดเงินสำหรับสมาชิก"/>
+</field>
+<field id="refund_status"><phrase id="fldcaption" value="สถานะการจ่าย"/>
+<phrase id="fldtagcaption1" value="รอจ่าย"/>
+<phrase id="fldtagcaption2" value="จ่ายแล้ว"/>
+</field>
+<field id="pay_date"><phrase id="fldcaption" value="ว.ด.ป.ที่จ่าย"/>
+</field>
+<field id="calculate_date"><phrase id="fldcaption" value="วันที่คำนวณ"/>
+</field>
+<field id="refund_slipt_num"><phrase id="fldcaption" value="หมายเลขใบสำคัญ"/>
+</field>
+</table>
+
+</project>
+</ew-language>
