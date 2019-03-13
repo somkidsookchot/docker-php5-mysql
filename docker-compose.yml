@@ -8,7 +8,8 @@ services:
     #command: docker-php-ext-install mysql
     volumes:
       - ./www/:/var/www/html
-      - ./php/php.ini:/usr/local/etc/php/php.ini
+      - ./php/php.ini:/usr/local/etc/php/php.ini:ro
+      - ./logs/php/:/var/log/apache2/
     restart: always
     links:
       - mysql
@@ -22,12 +23,17 @@ services:
       - ./mysql:/var/lib/mysql
    environment:
     MYSQL_ROOT_PASSWORD: example
-
-
-  adminer:
-    container_name: adminer
-    image: adminer
+   ports:
+    - 3306:3306
+   
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    environment:
+     - PMA_ARBITRARY=1
     restart: always
     ports:
-      - 8080:8080
+     - 8080:80
+    volumes:
+     - ./sessions
 
